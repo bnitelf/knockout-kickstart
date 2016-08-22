@@ -27,6 +27,8 @@ class HomeViewModel {
             var noOfRemaining = this.incompleteTasks();
             return noOfRemaining < 1;
         }, this);
+        
+        debugger;
     }
 
     /**

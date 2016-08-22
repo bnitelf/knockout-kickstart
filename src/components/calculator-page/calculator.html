@@ -1,0 +1,28 @@
+<!--
+<form role="form" data-bind="submit: addTask">
+    <div class="input-group">
+        <input type="text" data-bind="value: newTaskText" placeholder="What needs to be done?" class="form-control input-lg" autocomplete="off">
+        <span class="input-group-btn">
+            <button type="submit" class="btn btn-primary btn-lg">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add
+            </button>
+        </span>
+    </div>
+</form>-->
+<h1>My Calculator</h1>
+
+<div class="row">
+    <form class="form-inline" data-bind="submit: calculate">
+        <div class="form-group">
+            <input type="text" data-bind="value: num1" class="form-control" id="num1" placeholder="num 1">
+        </div>
+        <div class="form-group">
+            <label for="num2"> + </label>
+            <input type="text" data-bind="value: num2" class="form-control" id="num2" placeholder="num 2">
+        </div>
+        <button type="submit" class="btn btn-primary">Cal</button>
+    </form>
+</div>
+<div class="row">
+    <p data-bind="text: result"></p>
+</div>
